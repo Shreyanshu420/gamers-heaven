@@ -85,13 +85,7 @@ previous.addEventListener('click', function () {
     updateBar(n);
 })
 
-next.addEventListener('click', function () {
-    n++;
-    n %= 5;
-    updateBgImg(n);
-    updateThImg(n);
-    updateBar(n);
-})
+
 
 thImages[0].addEventListener('click', function () {
     n += 1;
