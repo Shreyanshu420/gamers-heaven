@@ -56,10 +56,7 @@ const changeText = () => {
     }, 200);
 }
 
-const updateBgImg = function (n) {
-    bgImg.style.backgroundImage = `url(${bgImgs[n]})`;
-    changeText();
-}
+
 
 const updateBar = function (n) {
     m = n * 25;
